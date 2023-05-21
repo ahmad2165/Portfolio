@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "poppins";
+}
+.left {
+  font-family: "Satisfy", cursive;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 45px;
+  background-color: rgb(22, 22, 90);
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 24px;
+  cursor: pointer;
+}
+nav ul li a {
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(159, 159, 240);
+  font-size: 1.02rem;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+.section1 > div {
+  width: 30%;
+}
+.rightsection img {
+  width: 80%;
+  margin: 50px 0;
+}
+.leftsection {
+  align-items: center;
+  font-size: 2.6rem;
+  margin: 80px 0px 80px 58px;
+
+  font-family: "poppins";
+}
+.leftsection span {
+  color: rgb(109, 50, 133);
+}
+.section2 {
+  max-width: 80vw;
+  margin: 40px auto;
+  height: 80vh;
+  /* border: 1px solid red; */
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #452f63;
+  margin: 2rem auto;
+  padding: 0;
+  width: 90vw;
+}
+.gray {
+  color: gray;
+}
+.line {
+  width: 80vw;
+  height: 2px;
+  background: white;
+  margin: 56px 0;
+  display: flex;
+ 
+}
+.vertical {
+  height: 96px;
+  width: 1px;
+  background-color: white;
+  margin: 0 100px ;
+}
+.sec2img{
+    left: -11px;
+    width: 23px;
+    position: relative;
+    top: -24px;
+}
+.title{
+    position: relative;
+    top: 65px;
+    left: -13px;
+}
+.description{
+    position: relative;
+    width: 157px;
+    top: 64px;
+    left: -17px;
+    font-size: 9px;
+    color: gray;
+}
+footer{
+  background-color: rgb(19, 19, 56);
+  min-height: 333px;
+  padding: 10px;
+}
+
+.footer{
+  
+  width: 22%;
+  margin: auto;
+  text-align: center;
+}
+.footerSpan{
+  color: rgb(100, 57, 170);
+}
+.footer2{
+  
+  width: 30%;
+  margin: 20px auto;
+  font-size: 12px;
+  
+}
+.button{
+  margin: auto;
+  
+  width: 10%;
+  
+}
+.contact{
+  background-color: darkblue;
+  padding: 12px;
+  margin-left: auto;
+  width: 133px;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-bottom:13px ;
+}
+.contact:hover{
+  background-color: rgb(4, 4, 190);
+  
+}
+.list{
+  width: 30%;
+ margin: auto;
+}
+.list ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.list ul li{
+  color: #6537a5;
+  cursor: pointer;
+  transition: all 0.5s;
+
+}
+.list ul li:hover{
+  color:#1052e0 ;
+
+}
